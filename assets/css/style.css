@@ -10,3 +10,13 @@
 .card-2 {
     background-color: #EAE9E7;
 }
+
+.hover-shadow:hover {
+    transform: translateY(-4px);
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.object-fit-cover {
+    object-fit: cover;
+}
